@@ -3,6 +3,8 @@ layout: secret
 title:  "Where are you from?"
 date:   2016-12-17 23:51:08 +0000
 help: "Ask Elena, Elena knows. "
+permalink: /where/
+
 ---
 
 A complete answer to very simple question I get a lot.
