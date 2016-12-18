@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why encrypted blog?"
+title:  "Why?"
 date:   2016-12-17 23:51:08 +0000
 categories: pure
 ---
