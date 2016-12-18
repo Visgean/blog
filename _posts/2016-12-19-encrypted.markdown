@@ -1,6 +1,6 @@
 ---
 layout: secret
-title:  "Example post - 12345"
+title:  "First encrypted post"
 date:   2016-12-17 23:51:08 +0000
 categories: encrypted
 help: "12345"
