@@ -1,0 +1,47 @@
+body {
+    font: 10px sans-serif;
+    shape-rendering: crispEdges;
+}
+
+.day {
+    fill: #eeeeee;
+    stroke: #ccc;
+}
+
+.month {
+    fill: none;
+    stroke: rgba(0, 0, 0, 0.6);
+}
+
+.label {
+}
+
+/* Intensity definitions */
+
+.year .intensity0 {
+    fill: #d6e685;
+}
+
+.year .intensity1 {
+    fill: #8cc665;
+}
+
+.year .intensity2 {
+    fill: #44a340;
+}
+
+.year .intensity3 {
+    fill: #1e6823;
+}
+
+.year .intensity4 {
+    fill: #1c5821;
+}
+
+.year .intensity5 {
+    fill: #1a4b1f;
+}
+
+.year .intensity6 {
+    fill: #133d18;
+}
