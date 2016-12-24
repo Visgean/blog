@@ -1,12 +1,16 @@
-function getSeedTime() {
-    // this function should return same string for an hour
-    var date = new Date();
-    return date.toDateString() + ' ' + date.getHours();
+function getSeed() {
+    // Seed function - currently it should return unique background per url.
+
+    // var date = new Date();
+    // return date.toDateString() + ' ' + date.getHours();
+
+    return window.location.href
+
 }
 
 function changeBackground() {
     var pattern = Trianglify({
-        seed: getSeedTime(),
+        seed: getSeed(),
         x_colors: 'Spectral',
         y_colors: 'random',
         width: window.innerWidth,
