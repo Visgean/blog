@@ -13,3 +13,17 @@
   border: solid 1px #707070;
   box-shadow: 0 0 5px 1px #969696;
 }
+
+
+.social {
+  margin-bottom: 30px;
+}
+
+.social a {
+  margin-right: 10px;
+  color: rgba(0, 0, 0, 0.71);
+}
+
+.social a:hover {
+  color: #EB6C72;
+}
