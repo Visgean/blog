@@ -1,5 +1,11 @@
+.site-header {
+  border-bottom: 0;
+  border-top: 0;
+}
+
+
 #phrase_form {
-	padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 #phrase_form input {
@@ -26,4 +32,21 @@
 
 .social a:hover {
   color: #EB6C72;
+}
+
+.wrapper {
+  background-color: white;
+}
+
+.wrapper:nth-of-type(1) {
+  border-bottom: 1px solid #e8e8e8; 
+}
+
+
+.page-content {
+  padding-top: 0px;
+}
+
+.page-content .wrapper {
+  padding-top: 30px;
 }
