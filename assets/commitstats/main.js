@@ -1,6 +1,6 @@
-var width = 960,
-    height = 136,
-    cellSize = 17; // cell size
+var width = 670,
+    height = 110,
+    cellSize = 12; // cell size
 
 var percent = d3.format(".1%"),
     format = d3.time.format("%Y-%m-%d");
