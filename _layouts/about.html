@@ -1,34 +1,45 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/styles/darkula.min.css">
+  {% include head_secret.html %}
 
-<style type="text/css">
-  pre, code {
-    padding: 0;
-    border: none;
-    border-radius: 0;
-  }
+  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/styles/darkula.min.css">
 
-  code {
-    font-size: 13px;
-  }
-</style>
+    {% include header.html %}
+    <style type="text/css">
+        pre, code {
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        }
+
+        code {
+        font-size: 13px;
+        }
+
+        .jsonized {
+            max-width: -webkit-calc(800px);
+            max-width: calc(800px);
+            margin-right: auto;
+            margin-left: auto;
+        }
+    </style>
 
 
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <h1>I am Visgean.</h1>
 
-<h1>I am Visgean.</h1>
+        {% include social.html %}
 
-{% include social.html %}
+        <p>
+            I have been programming for past ten years. For the last half of it I have been doing it for money.
+            I have worked on fairly large projects. Most of my work was about Python. But I am open to other languages as well. Right now I am finishing some contracts. But I might be open for other opportunities when I am done. 
+        </p>
+      </div>
 
-<p>
-    I have been programming for past ten years. For the last half of it I have been doing it for money.
-    I have worked on fairly large projects. Most of my work was about Python. But I am open to other languages as well. Right now I am finishing some contracts. But I might be open for other opportunities when I am done. 
-</p>
-
-
-<pre><code class="json" id="contact">{
+        <pre class="jsonized"><code class="json" id="contact">{
     github: "https://github.com/visgean",
     stack_overflow: "https://stackoverflow.com/users/823281/visgean-skeloru",
     linkedIn: "https://cz.linkedin.com/in/visgean",
@@ -80,9 +91,33 @@ layout: default
         math: "Silver and Bronze at UK Mathematics Trust Math Challenge"
     }
 }</code></pre>
+    </main>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad()
+    </script>
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/highlight.min.js"></script>
-  <script>
-      hljs.initHighlightingOnLoad()
-  </script>
+    <script>
+        var contact_code = $('#contact').html();
+        eval('var contact = ' + contact_code + ';');
+
+        Object.values(contact).forEach(function (value, index) {
+            if (typeof(value.startsWith) !== 'undefined' && value.startsWith('http')) {
+                var link = '<a target="_blank" href="'+value + '">' + value + '</a>';
+                contact_code = contact_code.replace(new RegExp(value, 'g'), link)            
+            }
+
+        });
+
+        $('#contact').html(contact_code);
+    </script>
+
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
