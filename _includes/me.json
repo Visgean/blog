@@ -1,0 +1,51 @@
+{
+    github: "https://github.com/visgean",
+    stack_overflow: "https://stackoverflow.com/users/823281/visgean-skeloru",
+    linkedIn: "https://cz.linkedin.com/in/visgean",
+    email: "me@visgean.me",
+    jabber: "me@visgean.me",
+    gpg_key: "https://visgean.me/key.asc",
+    last_fm: "http://www.last.fm/user/visgean",
+    good_reads: "https://www.goodreads.com/user/show/32711861-visgean-skeloru",
+
+    bitcoin: "https://blockchain.info/address/1NrSwh9dqBWyP8xYyjj9sUJazaNAdMEohB",
+    ethereum: "https://etherscan.io/address/0x663abdde3302c5eccce0f31467604b03e0d9554c",
+
+    technologies: [
+        "Django / Geo Django", "PostgreSQL", "Ubuntu", "Debian administration", 
+        "Facebook Graph API", "Bitcoin", "Ethereum", "Angular.js", "MongoDB", 
+        "RethinkDB", "nginx", "Bootstrap", "Unit tests", "Ethereum",
+        "Balance and Frontend testing", "Stripe", "Braintree", "Czech Bank APIs",
+    ],
+    experience: {
+        coex: {
+            year: 2015,
+            months: 14,
+            website: "coex.cz",
+            responsibility: "Django development of bussiness sites"
+        },
+        freelance: {
+            "github.com/WebArchivCZ/Seeder": "Django OS project for National Library",
+            "projectonaut": "My first paid work, just helping out though.",
+            "topsceneries": "Our photography startup that failed, shit happens.",
+            "klckrystof.cz": "Backend and servers, written in Django. ",
+            "vycepnastojaka.cz": "Website for a pub, I had beers for free there!",
+            "forhaus": "Another Django project, its getting boring.",
+            "filtracnitechnika.cz": "Django project for an air company!",
+            "irenalerman.cz": "Personal website, love those!"
+        }
+    },
+    languages: ["Native Czech", "Proficient English", "Limited Spanish"],
+    activities: {
+        debating: "Debated and judged over 180 academic debates since 2009.",
+        running: "Yap, I am one of those, see http://theoatmeal.com/comics/running",
+        gym: "I like to angrily head-butt my crotch. Read the Oatmeal!",
+        reading: "See my goodreads profile."
+    },
+    awards: {
+        facebook: "$6500 in Security bug bounty programme, lot of money for nothing",
+        dofe: "Bronze, Silver and Gold Duke of Edinburgh Award",
+        debating: "Bronze, Silver and Gold Badge", 
+        math: "Silver and Bronze at UK Mathematics Trust Math Challenge"
+    }
+}
