@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/visgean
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://visgean.me
+  * I am visgean (https://keybase.io/visgean) on keybase.
+  * I have a public key with fingerprint AB68 F7BB 22DF CDD6 52E3  79D5 4547 B226 6DF3 FD8F
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120af14233ce7ea520f5056beaf485a78576e90eb4685c49f9a2e4d9cfb251233e90a",
+            "fingerprint": "ab68f7bb22dfcdd652e379d54547b2266df3fd8f",
+            "host": "keybase.io",
+            "key_id": "4547b2266df3fd8f",
+            "kid": "01011877a90e9ab7bee7c631f0e1b3a9011303780158ac2963c8199dcd4fb27b98c60a",
+            "uid": "da2daa464f52214dd871206e4476fd19",
+            "username": "visgean"
+        },
+        "service": {
+            "hostname": "visgean.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1481408036,
+    "expire_in": 157680000,
+    "prev": "6a8afda4c30643fb549aefc0f0621043a149f5015adf3fc524454a2f55e69fe3",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.60
+Comment: https://keybase.io/crypto
+
+yMNpAnicbVJrUFRVAF6eM5AFM0CGotSFFpKV7vuxwqAMysOmIVMplOjce8/BC7i7
+7d3loTzGhHUEDBVNMsQmGItGzQEbJM3aFHzU2EAzzShmBQw4Go5Jbi6EdJbJH810
+/pw53/m+73znO+fi0wGGUL/Vmd3GrVOzzX7fuQ84DW+8UhO/nZCtaiVh3k6UwPkJ
+lqpQdxSWaCphJkiKJgGiWJphFChAwNEk4kiOlyFArMgBQeQEHkoklFle5BRWQhKg
+IatKCpJpjsIyvAkIE4E0SxG02+yaxYFtgcyLSJBlmlaRoqo8R0NGkFSO5VgBgzyv
+IgapIsLCLVbdp8DhZKDDZM2KMbwonI/3P/wnuUmKEgUB4GgSkAUZQkHhGQqRkJIZ
+jFIUQzKCSFKcCBRa4hlFpCRJVVQWBxdkSVT4+dzOeTsV0CoALM8ijqYpVlVFARfD
+Q5YVeKRSko+oQ7sFbIWYXabpRRBYiGoTgcEyTYG+Xn0X+S8hGS9MhM1udVgVaynG
+tzgcNt3s0zkqbT5iOZQL/7UolDWLikvEijJo1zWrhTBTmKk4NJ8nxYoUS4okw5sI
+WGHT7LBQ8zHw84gkHr5zYBm25IEIkApYhSF5lkEyx0oAIoVEJE9TJMsACj8ih3sB
+vk4VjmZxyYBGHAd5CUGG8F3qHYuVMEs4JijClrpWZAEOpx0S1d+6Nwca/EINwUH+
+vs9lCA0Jf/Ll+Ilww8Di0QRDy42cyfXXFiReb+h9DQnHIhYP/WYbT60Y/TjiflJV
+8NHJ4d4zZ3Nv1To2b4SJXe+f86DPU8/QV35//sO0ysNjxnLhanlndEf7q7veAtHe
+3LnoVFv4iYH9aw5Mjh7paM2oLqlfuP+u95L76s6JmZebn21pqNkorFs0uGRZLxWf
+lffQP2t5wI6BH3bVpSZJBcuWZnWFZaz6KfbQYGd1Ltt4K6C4fr2l4ILFuCt7z8Uy
+I3s3pnZokonKdL44Oxxvd4y4MtNGmGt7WXrBH1/nS/cuR4TM3D7y+EJ5Wp59LINq
+bzidO/2Rq6Yze+JR/gm0oe3d6ReK5soDf+3z3Ky5/uVg0yXyRu3OOM+d73vW9pxO
+ycrb9vhK9MGE8ylhPQVHp2IzAtP1fekf+DORrhGG60hYVHO8bqp5+CX3bu/yfK/n
+TfLgqte9FbuX7jtvryweNI482LHhoXHdyZnu8aYvmlJi9FlzOB82mr4nwpV0Up6N
+zdi0ZMgDMuPv/1n14E5rtPem8M2p8ecyKvr694JGZ2md/V6OUhx1LjHIs9BkePTX
+7cZt7f1xbVkrfiGPp1QnT7yXFtBujLkc1GyK+GQy4O/uFWFx7rig4uxp17G3f0Sb
+ArtaDjknDvd/1vLM3Cl0NsS1xl2vj7mqKkbYSKV1ZWScEfXl6MFPpfzc/Wli20rX
+2sAe7quofwDixLux
+=47Dw
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/visgean
+
+==================================================================
