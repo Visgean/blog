@@ -3,6 +3,9 @@
   border-top: 0;
 }
 
+p {
+  text-align: justify;
+}
 
 #phrase_form {
   padding-bottom: 10px;
