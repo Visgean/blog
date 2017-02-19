@@ -18,8 +18,7 @@
             client: "National Library"
         },
         coex: {
-            year: 2015,
-            months: 14,2017-01-19
+            months: 14,
             website: "coex.cz",
             responsibility: "Django development of bussiness sites"
         },
@@ -46,10 +45,10 @@
         debating: "Bronze, Silver and Gold Badge", 
         math: "Silver and Bronze at UK Mathematics Trust Math Challenge"
     },
-        technologies: [
+    technologies: [
         "Django / Geo Django", "PostgreSQL", "Ubuntu", "Debian administration", 
         "Facebook Graph API", "Bitcoin", "Ethereum", "Angular.js", "MongoDB", 
         "RethinkDB", "nginx", "Bootstrap", "Unit tests", "Ethereum",
-        "Balance and Frontend testing", "Stripe", "Braintree", "Czech Bank APIs",
+        "Balance and Frontend testing", "Stripe", "Braintree", "Czech Bank APIs"
     ]
 }
