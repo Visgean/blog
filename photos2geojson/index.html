@@ -65,7 +65,7 @@
 			var a = geojson.features[i];
 			var marker = L.marker(new L.LatLng(a.geometry.coordinates[1], a.geometry.coordinates[0]),{});
 			
-			var popup = '<h1>' + a.properties.date + '</h1>' + '<a target="_blank" href="file://' + a.properties.filename +'"><img src="' + a.properties.filename + '"></a>';
+			var popup = '<h1>' + a.properties.date + '</h1>' + '<a target="_blank" href="' + a.properties.filename +'"><img src="' + a.properties.filename + '"></a>';
 
 			marker.bindPopup(popup);
 			markers.addLayer(marker);
