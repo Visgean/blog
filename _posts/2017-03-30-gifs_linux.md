@@ -26,3 +26,6 @@ $ convert look.gif -coalesce   -duplicate 1,-2-1 -quiet -layers OptimizePlus  -l
 ```
 
 This will add reversed gif to the end of the video. This is better for GIFs with short span capturing some simple movement where you can't easily tell that it is happening in reverse.
+
+
+See [Patrol Cycles](http://www.imagemagick.org/Usage/anim_mods/#reverse) in Imagemagick docs.
