@@ -233,6 +233,10 @@ I was only able to parse about 60% of my photos - rest of them comes from facebo
 
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+</script>
+
 
 <script type="text/javascript">
 
