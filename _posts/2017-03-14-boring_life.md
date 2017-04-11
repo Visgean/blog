@@ -5,6 +5,12 @@ date:   2017-03-14 14:21:08 +0010
 categories: life
 ---
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+</script>
+
+
+
 
 When my life is interesting I take a lot of photos. Lets see if I can plot these photos to see if my life is getting more interesting. 
 
@@ -233,9 +239,6 @@ I was only able to parse about 60% of my photos - rest of them comes from facebo
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-
-</script>
 
 
 <script type="text/javascript">
