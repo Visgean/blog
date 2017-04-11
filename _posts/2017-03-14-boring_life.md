@@ -49,7 +49,6 @@ pictures = list(filter(
 
 dict_keys(['MakerNote Tag 0x0001', 'Image Orientation', 'EXIF FlashPixVersion', 'Image YResolution', 'Image XResolution', 'GPS GPSLongitudeRef', 'GPS GPSImgDirectionRef', 'EXIF SensingMethod', 'Thumbnail ResolutionUnit', 'GPS GPSImgDirection', 'JPEGThumbnail', 'MakerNote Tag 0x0006', 'GPS GPSAltitudeRef', 'EXIF ColorSpace', 'EXIF ExposureBiasValue', 'EXIF SceneCaptureType', 'EXIF FocalLength', 'Image ResolutionUnit', 'Image Make', 'EXIF SubSecTimeOriginal', 'EXIF LensSpecification', 'EXIF BrightnessValue', 'Image DateTime', 'EXIF ApertureValue', 'MakerNote Tag 0x0005', 'EXIF FNumber', 'EXIF MeteringMode', 'GPS Tag 0x001F', 'GPS GPSLongitude', 'Thumbnail JPEGInterchangeFormat', 'EXIF LensMake', 'Image Software', 'MakerNote Tag 0x0003', 'EXIF ExposureTime', 'EXIF ShutterSpeedValue', 'Thumbnail Compression', 'MakerNote Tag 0x0008', 'Image ExifOffset', 'EXIF WhiteBalance', 'GPS GPSLatitude', 'EXIF ExifVersion', 'EXIF ExifImageWidth', 'EXIF DateTimeOriginal', 'Image Model', 'GPS GPSDestBearingRef', 'MakerNote Tag 0x0014', 'GPS GPSDestBearing', 'GPS GPSAltitude', 'EXIF SubSecTimeDigitized', 'GPS GPSSpeedRef', 'EXIF ComponentsConfiguration', 'EXIF FocalLengthIn35mmFilm', 'EXIF ExposureMode', 'Thumbnail JPEGInterchangeFormatLength', 'EXIF Flash', 'Image YCbCrPositioning', 'EXIF MakerNote', 'Image GPSInfo', 'GPS GPSSpeed', 'MakerNote Tag 0x0004', 'GPS GPSLatitudeRef', 'EXIF SceneType', 'EXIF ExifImageLength', 'EXIF ISOSpeedRatings', 'GPS GPSDate', 'EXIF LensModel', 'EXIF DateTimeDigitized', 'Thumbnail YResolution', 'MakerNote Tag 0x0007', 'GPS GPSTimeStamp', 'Thumbnail XResolution', 'EXIF ExposureProgram'])
 
-
 ```
 
 
@@ -158,10 +157,10 @@ output_notebook()
 
 
 
-    <div class="bk-root">
-        <a href="http://bokeh.pydata.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
-        <span id="08df9cb6-309b-45a4-a95e-bc9e2665e25c">Loading BokehJS ...</span>
-    </div>
+<div class="bk-root">
+    <a href="http://bokeh.pydata.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
+    <span id="08df9cb6-309b-45a4-a95e-bc9e2665e25c">Loading BokehJS ...</span>
+</div>
 
 
 
@@ -188,8 +187,55 @@ show(time_graph)
 <div class="bk-root">
     <div class="bk-plotdiv" id="410736d5-1a85-4d12-84bb-ed6fd5179284"></div>
 </div>
+
+
+As you can see that is a bit messy so lets try to collect it by month
+
+
+```python
+photos_per_month = Counter([datetime(d.year, d.month, 1) for d in dates if d])
+```
+
+
+```python
+time_graph = figure(
+    title="Pics per month", 
+    background_fill_color="#E8DDCB",
+    y_axis_label='# of pics', 
+    x_axis_label='Time',
+    x_axis_type="datetime"
+)
+
+sorted_vals = photos_per_month.most_common()
+
+time_graph.circle([x[0] for x in sorted_vals], [x[1] for x in sorted_vals])
+show(time_graph)
+```
+
+
+
+
+<div class="bk-root">
+    <div class="bk-plotdiv" id="8772e140-5a33-44e1-bdf0-151cc9c6e979"></div>
+</div>
+
+
+```python
+>>> print(len(list(filter(None, dates))))
+1889
+```
+
+    
+
+
+I was only able to parse about 60% of my photos - rest of them comes from facebook or dont have dates at all :/ But its still nice to see that I am taking more and more photos.
+
+
+
+
+
 <script type="text/javascript">
-  
+
   (function(global) {
     function now() {
       return new Date();
@@ -326,37 +372,8 @@ show(time_graph)
 </script>
 
 
-As you can see that is a bit messy so lets try to collect it by month
-
-
-```python
-photos_per_month = Counter([datetime(d.year, d.month, 1) for d in dates if d])
-```
-
-
-```python
-time_graph = figure(
-    title="Pics per month", 
-    background_fill_color="#E8DDCB",
-    y_axis_label='# of pics', 
-    x_axis_label='Time',
-    x_axis_type="datetime"
-)
-
-sorted_vals = photos_per_month.most_common()
-
-time_graph.circle([x[0] for x in sorted_vals], [x[1] for x in sorted_vals])
-show(time_graph)
-```
-
-
-
-
-    <div class="bk-root">
-        <div class="bk-plotdiv" id="8772e140-5a33-44e1-bdf0-151cc9c6e979"></div>
-    </div>
 <script type="text/javascript">
-  
+
   (function(global) {
     function now() {
       return new Date();
@@ -492,14 +509,3 @@ show(time_graph)
   }(this));
 </script>
 
-
-
-```python
->>> print(len(list(filter(None, dates))))
-1889
-```
-
-    
-
-
-I was only able to parse about 60% of my photos - rest of them comes from facebook or dont have dates at all :/ But its still nice to see that I am taking more and more photos.
