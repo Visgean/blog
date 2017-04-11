@@ -185,9 +185,9 @@ show(time_graph)
 
 
 
-    <div class="bk-root">
-        <div class="bk-plotdiv" id="410736d5-1a85-4d12-84bb-ed6fd5179284"></div>
-    </div>
+<div class="bk-root">
+    <div class="bk-plotdiv" id="410736d5-1a85-4d12-84bb-ed6fd5179284"></div>
+</div>
 <script type="text/javascript">
   
   (function(global) {
