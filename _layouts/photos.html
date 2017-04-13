@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head_secret.html %}
+
+  <body>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+
+    {% include header.html %}
+    <style type="text/css">
+
+        .wide {
+            max-width: -webkit-calc(800px);
+            max-width: calc(800px);
+            margin-right: auto;
+            margin-left: auto;
+            padding: 0;
+            padding-top: 0 !important;
+            background: transparent;
+            border-bottom: 0 !important;
+        }
+
+
+      /* ---- grid ---- */
+
+
+      .grid {
+      }
+
+      /* clear fix */
+      .grid:after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+
+      /* ---- .grid-item ---- */
+
+      .grid-sizer,
+      .grid-item {
+        width: 33.333%;
+      }
+
+      .grid-item {
+        float: left;
+      }
+
+      .grid-item img {
+        display: block;
+        max-width: 100%;
+      }
+
+    </style>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper wide">
+
+<div class="grid">
+  <div class="grid-sizer"></div>
+
+  {% for image in site.static_files %}
+      {% if image.path contains 'pictures' %}
+      <div class="grid-item">
+        <a href="{{ site.baseurl }}{{ image.path }}"><img src="{{ site.baseurl }}{{ image.path }}" /></a>
+      </div>
+      {% endif %}
+  {% endfor %}
+</div>
+</main>
+
+
+
+  <script type="text/javascript">
+
+// external js: masonry.pkgd.js, imagesloaded.pkgd.js
+
+// init Isotope
+var grid = document.querySelector('.grid');
+
+var msnry = new Masonry( grid, {
+  itemSelector: '.grid-item',
+  columnWidth: '.grid-sizer',
+  percentPosition: true
+});
+
+imagesLoaded( grid ).on( 'progress', function() {
+  // layout Masonry after each image loads
+  msnry.layout();
+});
+
+
+  </script>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
