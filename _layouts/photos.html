@@ -17,8 +17,12 @@
       margin-left: auto;
       padding: 0;
       padding-top: 0 !important;
-      background: transparent;
       border-bottom: 0 !important;
+      background-color: rgb(0, 0, 0);
+      /* RGBa with 0.6 opacity */
+      background-color: rgba(0, 0, 0, 0.3);
+
+
     }
 
 
@@ -39,7 +43,7 @@
 
     .grid-sizer,
     .grid-item {
-      width: 33.333%;
+      width: 50%;
     }
 
     .grid-item {
@@ -59,7 +63,6 @@
 
       <div class="grid">
         <div class="grid-sizer"></div>
-
         {% for image in site.static_files %}
         {% if image.path contains 'pictures' %}
         <div class="grid-item">
