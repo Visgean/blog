@@ -13,8 +13,8 @@
       "klckrystof.cz": "Backend, devops, written in Django",
       "vycepnastojaka.cz": "Pub site, had beer for free",
       "forhaus": "Restaurant websie, not used anymore",
-      "filtracnitechnika.cz": "Air company presentation",
-    }
+      "filtracnitechnika.cz": "Air company presentation"
+  },
   experience: {
     seeder: {
       years: 2,
@@ -27,7 +27,6 @@
       website: "coex.cz",
       responsibility: "Fulltime Django development"
     },
-
   },
   languages: [
     "Native Czech", 
