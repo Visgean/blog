@@ -1,51 +1,51 @@
 {
-    github: "https://github.com/visgean",
-    stack_overflow: "https://stackoverflow.com/users/823281/",
-    linkedin: "https://cz.linkedin.com/in/visgean",
-    email: "visgean@protonmail.com",
-    gpg_key: "https://visgean.me/key.asc",
-    last_fm: "http://www.last.fm/user/visgean",
-    good_reads: "https://goodreads.com/visgean",
+  github: "https://github.com/visgean",
+  so: "https://stackoverflow.com/users/823281/",
+  linkedin: "https://cz.linkedin.com/in/visgean",
+  email: "visgean@protonmail.com",
+  gpg_key: "https://visgean.me/key.asc",
+  last_fm: "http://www.last.fm/user/visgean",
+  good_reads: "https://goodreads.com/visgean",
 
-    freelance: {
-            "projectonaut": "First paid work, just helping out",
-            "topsceneries": "Startup that did not go anywhere",
-            "klckrystof.cz": "Backend, devops, written in Django",
-            "vycepnastojaka.cz": "Pub site, had beer for free",
-            "forhaus": "Restaurant websie, not used anymore",
-            "filtracnitechnika.cz": "Air company presentation",
-        }
-    experience: {
-        seeder: {
-            years: 2,
-            public_url: "github.com/WebArchivCZ/Seeder",
-            responsibility: "Full stack development",
-            client: "National Library"
-        },
-        coex: {
-            months: 14,
-            website: "coex.cz",
-            responsibility: "Fulltime Django development"
-        },
+  freelance: {
+      "projectonaut": "First paid work, just helping out",
+      "topsceneries": "Startup that did not go anywhere",
+      "klckrystof.cz": "Backend, devops, written in Django",
+      "vycepnastojaka.cz": "Pub site, had beer for free",
+      "forhaus": "Restaurant websie, not used anymore",
+      "filtracnitechnika.cz": "Air company presentation",
+    }
+  experience: {
+    seeder: {
+      years: 2,
+      public_url: "github.com/WebArchivCZ/Seeder",
+      responsibility: "Full stack development",
+      client: "National Library"
+    },
+    coex: {
+      months: 14,
+      website: "coex.cz",
+      responsibility: "Fulltime Django development"
+    },
 
-    },
-    languages: [
-        "Native Czech", 
-        "Proficient English", 
-        "Limited Spanish"],
-    awards: {
-        facebook: "$6500 in Security bug bounty",
-        dofe: "Bronze, Silver and Gold Duke of Edinburgh Award",
-        debating: "Bronze, Silver and Gold Badge", 
-        math: "Silver and Bronze at UK Math Challenge"
-    },
-    technologies: [
-        "Django / Geo Django", "PostgreSQL", 
-        "Ubuntu / Debian dev ops", "Facebook API", 
-        "Bitcoin", "Ethereum", "Angular.js", 
-        "MongoDB", "RethinkDB", "nginx", 
-        "Bootstrap", "Unit tests", "Ethereum",
-        "Balance and Frontend testing", 
-        "Stripe", "Braintree", "Bank APIs"
-    ]
+  },
+  languages: [
+    "Native Czech", 
+    "Proficient English", 
+    "Limited Spanish"],
+  awards: {
+    facebook: "$6500 in Security bug bounty",
+    dofe: "Bronze, Silver and Gold Duke of Edinburgh Award",
+    debating: "Bronze, Silver and Gold Badge", 
+    math: "Silver and Bronze at UK Math Challenge"
+  },
+  technologies: [
+    "Django / Geo Django", "PostgreSQL", 
+    "Ubuntu / Debian dev ops", "Facebook API", 
+    "Bitcoin", "Ethereum", "Angular.js", 
+    "MongoDB", "RethinkDB", "nginx", 
+    "Bootstrap", "Unit tests", "Ethereum",
+    "Balance and Frontend testing", 
+    "Stripe", "Braintree", "Bank APIs"
+  ]
 }
