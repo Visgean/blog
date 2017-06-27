@@ -79,14 +79,28 @@
     </div>
 
     <div class="full_width inverted centered jambo">
-        Contact me if you think I can help you
+        $6500 in Facebook security bug bounty (2011)
     </div>
 
     <div class="full_width white centered jambo">
+        Bronze, Silver and Gold Duke of Edinburgh Award
+    </div>
+
+    <div class="full_width inverted centered jambo">
+        Bronze, Silver and Gold Badge Czech debating association
+    </div>
+
+    <div class="full_width white centered jambo">
+        Silver and Bronze at UK Mathematics Trust Math Challenge
+    </div>
+
+    <div class="full_width inverted centered jambo">
         Currently busy on contract, working remotely
     </div>
 
-
+    <div class="full_width white centered jambo">
+        Contact me if you think I can help you
+    </div>
 
     <pre class="full_width"><code class="json" id="contact">{% include me.json %}</code></pre>
 </main>
@@ -107,7 +121,6 @@
             var link = '<a target="_blank" href="'+value + '">' + value + '</a>';
             contact_code = contact_code.replace(new RegExp(value, 'g'), link)            
         }
-
     });
 
     $('#contact').html(contact_code);
