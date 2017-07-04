@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Facebook privacy that we are all missing"
+title:  "Facebook privacy settings that we are all missing"
 date:   2017-04-25 03:35:08 +0000
 categories: rants
 ---
