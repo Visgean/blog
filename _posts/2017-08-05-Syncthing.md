@@ -27,7 +27,7 @@ Setting up the network of devices is pretty easy, every device has a unique ID, 
 
 One thing that you need to worry about is that syncthing only works on your devices. So if you want to synchronize your photos you need to have your laptop or at least one device on. The best way to do this is to have a VPS instance somewhere like digitalocean. Setting up that is extremely easy and is well documented.
 
-But with some data you dont trust the server provider. So its time for encryption, there are many options, a good table of different tools can be found here: https://nuetzlich.net/gocryptfs/comparison/. I went with cryfs: https://www.cryfs.org/tutorial (look at the dropbox guide).
+But with some data you dont trust the server provider. So its time for encryption, there are many options, a good table of different tools can be found here: [gocryptfs/comparison](https://nuetzlich.net/gocryptfs/comparison/). I went with [Cryfs](https://www.cryfs.org/tutorial) (look at the dropbox guide).
 
 After setting up the cryfs I moved there about 8GB of data, this did not work very well and was extremely slow. So now I keep there only ~1GB of important documents and rest is unencrypted.
 
