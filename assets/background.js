@@ -13,8 +13,8 @@ function changeBackground() {
         seed: getSeed(),
         x_colors: 'Spectral',
         y_colors: 'random',
-        width: min(3000, window.innerWidth),
-        height: min(6000, $(document).height() + 100)
+        width: Math.min(3000, window.innerWidth),
+        height: Math.min(6000, $(document).height() + 100)
     });
 
     // umm yeah, hacks, who does not love them?!
