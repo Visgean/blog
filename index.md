@@ -18,8 +18,6 @@ Over the years I have worked with many different technologies, but I have mostly
 - or other interesting city, I am **willing to move** for a short-term contract
 - or its remote
 - and you are prepared to pay  [market rate](https://www.indeed.co.uk/jobs?q=python+contract+&l=London)
-- I am considering going for Canada on a startup Visa. 
-- I am not considering going to US (too much VISA hassle for getting shot by a cop).
 
 ## How to contact me:
 
