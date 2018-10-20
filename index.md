@@ -16,8 +16,7 @@ Over the years I have worked with many different technologies, but I have mostly
 - for a short term contracts (3-6 months)
 - the position is in **London / Edinburgh** 
 - or other interesting city, I am **willing to move** for a short-term contract
-- or its remote
-- and you are prepared to pay  [market rate](https://www.indeed.co.uk/jobs?q=python+contract+&l=London)
+- or it is remote
 
 ## How to contact me:
 
