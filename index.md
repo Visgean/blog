@@ -3,7 +3,7 @@ layout: home
 ---
 
 
-Hi, **I am Martin** (I go by **Visgean on the internet**). I have been working as a software developer since 2010. I have worked  in London, Prague and remotely for a company in San Francisco. 
+Hi, **I am Martin** (I go by **Visgean on the internet**). I am a software developer. Since 2010 I have worked  in London, Prague and remotely for a company in San Francisco. 
 **See my [CV](/cv.pdf) for details.** Most of the times I have worked as self-employed contractor. I am an **EU citizen**.
 
 My focus is on the **back-end** side (server applications), I have worked as a full-stack developer before but I prefer to cooperate with front-end developers as it is much more effective. 
