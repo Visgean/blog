@@ -8,7 +8,7 @@ Hi, **I am Martin** (I go by **Visgean on the internet**). I am a software devel
 
 My focus is on the **back-end** side (server applications), I have worked as a full-stack developer before but I prefer to cooperate with front-end developers as it is much more effective. 
 
-Over the years I have worked with many different technologies, but I have mostly worked with **Python**, SQL and Linux servers. Apart from that I have worked with Java, Kotlin, Haskell and JavaScript, but with these languages I would not be confident enough to work on anything but a hobby project.  
+Over the years I have worked with many different technologies, but  mostly with mix of **Python**, SQL, Linux servers, ocasionally I have also worked with Pandas, Numpy, Scikit-learn and matplotlib. Apart from that I have worked with Java, Kotlin, Haskell and JavaScript.  
 
 ## Contact me if:
 
