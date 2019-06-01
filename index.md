@@ -15,18 +15,19 @@ Languages:
   - Numpy, SciPy, Pandas
 - Haskell (beginner level)
 - Kotlin
-  - Beginner level android development 
-- Bits of Javascript
+- Javascript
 
 Databases:
 - Redis
 - PostgreSQL
 - MongoDB
 
+Linux:
+- Ubuntu / Debian / Arch Linux operational knowledge
+- nginx 
+
 Other tech:
 - Bitcoin, Ethereum
-- Debian
-- nginx
 
 
 ## Contact me
