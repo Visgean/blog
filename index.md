@@ -6,6 +6,15 @@ layout: home
 Hi, **I am Martin** (I go by **Visgean on the internet**). I am a software developer. Since 2010 I have worked  in London, Prague and remotely for a company in San Francisco. 
 **See my [CV](/cv.pdf) for details.** Most of the times I have worked as self-employed contractor. I am an **EU citizen**.
 
+# What I would like to work on
+
+I like to collaborate in teams with frontend developers, database experts and devops specialists.
+I have worked as a fullstack developer before and I know that I am much more effective working with 
+people who are more narrowly focused.
+
+I enjoy working as an API developer but I don't mind touching frontend or devops setup. 
+
+
 # Experience
 
 Languages:
