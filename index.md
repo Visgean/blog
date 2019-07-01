@@ -10,13 +10,11 @@ Hi, **I am Martin** (I go by **Visgean on the internet**). I am a software devel
 
 Languages:
 - Python (11 years), Django (9 years), Django REST, Numpy, SciPy, Pandas
-- Haskell (beginner level)
-- Kotlin
-- Javascript
+- Haskell (beginner level), Kotlin, Javascript
 
 Tech:
 - Databases: Redis, PostgreSQL, MongoDB
-- Linux: Ubuntu / Debian / Arch Linux nginx / sytstemd 
+- Linux: Ubuntu / Debian / Arch Linux nginx / systemd
 - I have been through some SQL and caching optimizations. 
 - Bitcoin, Ethereum (but I am very sceptical of blockchains that consume too much electricity)
 
